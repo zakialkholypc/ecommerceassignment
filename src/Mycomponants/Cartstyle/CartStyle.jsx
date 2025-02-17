@@ -18,7 +18,7 @@ export default function CartStyle() {
 
   return (
     userToken && (
-      <div className="fixed end-[20px] bottom-[80px]">
+      <div className="fixed end-[20px] bottom-[80px] z-50">
         <div className="bg-[rgb(253,132,31)] w-[60px] h-[65px] flex justify-center shadow-2xl items-center rounded-xl relative">
           {userToken ? (
             <Link className="" to="/cart">
